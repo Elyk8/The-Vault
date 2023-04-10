@@ -1,0 +1,17 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter",
+  "monospaceFontFamily": "Cascadia Code",
+  "showViewHeader": false,
+  "cssTheme": "",
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "tasks",
+    "header-hashes",
+    "header-coloring",
+    "header-org-bullets",
+    "coloured-headings"
+  ],
+  "theme": "obsidian"
+}

@@ -1,0 +1,10 @@
+{
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@sidebar-lines-off": false,
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-wide",
+  "minimal-style@@h1-size": "1.2em",
+  "minimal-style@@h2-size": "1.1em",
+  "minimal-style@@embed-hide-title": true,
+  "minimal-style@@embed-strict": true,
+  "minimal-style@@list-spacing": 0.25
+}

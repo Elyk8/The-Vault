@@ -1,0 +1,47 @@
+{
+  "choices": [
+    {
+      "id": "cd7326ba-2c54-4d9c-b4bb-fe8268a4ac64",
+      "name": "Create PDF Annotation",
+      "type": "Template",
+      "command": true,
+      "templatePath": "assets/templates/annotation.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "= {{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "pages/annotations"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "assets/templates",
+  "announceUpdates": true,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

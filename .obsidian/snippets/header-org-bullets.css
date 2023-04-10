@@ -1,0 +1,23 @@
+.cm-line > span.cm-header-1:not(.cm-formatting):before,.markdown-preview-view h1:before { content: "◉ "; }
+.cm-line.cm-active > span.cm-header-1 > span:not(.cm-selection):before                  { content: "◉ "; }
+.cm-line > span.cm-header-1 ~ span.cm-header-1:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-2:not(.cm-formatting):before,.markdown-preview-view h2:before { content: "● "; }
+.cm-line.cm-active > span.cm-header-2 > span:not(.cm-selection):before                  { content: "● "; }
+.cm-line > span.cm-header-2 ~ span.cm-header-2:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-3:not(.cm-formatting):before,.markdown-preview-view h3:before { content: "✸ "; }
+.cm-line.cm-active > span.cm-header-3 > span:not(.cm-selection):before                  { content: "✸ "; }
+.cm-line > span.cm-header-3 ~ span.cm-header-3:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-4:not(.cm-formatting):before,.markdown-preview-view h4:before { content: "◆ "; }
+.cm-line.cm-active > span.cm-header-4 > span:not(.cm-selection):before                  { content: "◆ "; }
+.cm-line > span.cm-header-4 ~ span.cm-header-4:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-5:not(.cm-formatting):before,.markdown-preview-view h5:before { content: "✿ "; }
+.cm-line.cm-active > span.cm-header-5 > span:not(.cm-selection):before                  { content: "✿ "; }
+.cm-line > span.cm-header-5 ~ span.cm-header-5:not(.cm-formatting):before { content: ""; }
+
+.cm-line > span.cm-header-6:not(.cm-formatting):before,.markdown-preview-view h6:before { content: "○ "; }
+.cm-line.cm-active > span.cm-header-6 > span:not(.cm-selection):before                  { content: "○ "; }
+.cm-line > span.cm-header-6 ~ span.cm-header-6:not(.cm-formatting):before { content: ""; } 

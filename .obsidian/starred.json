@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Annotations",
+      "path": "assets/Annotations.md"
+    },
+    {
+      "type": "file",
+      "title": "Attachments",
+      "path": "assets/Attachments.md"
+    },
+    {
+      "type": "file",
+      "title": "Templates",
+      "path": "assets/Templates.md"
+    },
+    {
+      "type": "file",
+      "title": "My Brain",
+      "path": "canvas/My Brain.canvas"
+    },
+    {
+      "type": "file",
+      "title": "My Workflow",
+      "path": "pages/My Workflow.md"
+    },
+    {
+      "type": "file",
+      "title": "My Annotations",
+      "path": "pages/My Annotations.md"
+    },
+    {
+      "type": "file",
+      "title": "My Attachments",
+      "path": "pages/My Attachments.md"
+    },
+    {
+      "type": "file",
+      "title": "My Templates",
+      "path": "pages/My Templates.md"
+    },
+    {
+      "type": "file",
+      "title": "My Omnivore",
+      "path": "pages/My Omnivore.md"
+    }
+  ]
+}

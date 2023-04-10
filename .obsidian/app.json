@@ -1,0 +1,23 @@
+{
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-AU"
+  ],
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "attachmentFolderPath": "assets/attachments",
+  "userIgnoreFilters": [
+    "assets/"
+  ],
+  "showInlineTitle": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "tabSize": 4,
+  "useTab": true,
+  "smartIndentList": true
+}

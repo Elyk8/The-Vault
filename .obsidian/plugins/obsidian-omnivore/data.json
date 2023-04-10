@@ -1,0 +1,16 @@
+{
+  "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+  "apiKey": "fe00472d-3a11-4c6e-9112-27e42c853851",
+  "filter": "ADVANCED",
+  "syncAt": "2023-04-10T18:16:32",
+  "customQuery": "label:Obsidian",
+  "template": "---\nid: {{id}}\n{{#author}}\nauthor: \"{{{author}}}\"\n{{/author}}\ndate_saved: \"{{{dateSaved}}}\"\n{{#datePublished}}\ndate_published: \"{{{datePublished}}}\"\n{{/datePublished}}\n---\n# {{{title}}}\n[Read on Omnivore]({{{omnivoreUrl}}})\n[Read Original]({{{originalUrl}}})\n{{#note}}\n## Note\n{{{note}}}\n{{/note}}\n{{#pdfAttachment}}\n\n![[{{{pdfAttachment}}}]]\n{{/pdfAttachment}}\n\n{{#highlights.length}}\n## Highlights\n\n{{#highlights}}\n> {{{text}}} []({{{highlightUrl}}})\n{{#note}}\n\n{{{note}}}\n{{/note}}\n\n{{/highlights}}\n{{/highlights.length}}",
+  "highlightOrder": "LOCATION",
+  "syncing": false,
+  "folder": "pages/omnivore",
+  "folderDateFormat": "yyyy-MM-dd",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}}",
+  "attachmentFolder": "assets/attachments"
+}
