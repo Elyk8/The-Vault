@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2023-04-11.md",
+                "file": "journals/2023-04-12.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journals/2023-04-11.md"
+                "file": "journals/2023-04-12.md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "74fd81169b0e93fa",
   "lastOpenFiles": [
-    "journals/2023-04-10.md",
     "journals/2023-04-11.md",
+    "journals/2023-04-12.md",
+    "journals/2023-04-10.md",
     "The-Vault",
     "pages/My Omnivore.md",
     "pages/My Templates.md",
@@ -220,7 +221,6 @@
     "pages/My Queries.md",
     "journals/2023-04-04.md",
     "journals/2023-04-08.md",
-    "pages/Transurban.md",
     "canvas/Untitled.canvas",
     "assets/attachments/image/2023-04-06-1680727986289.jpeg",
     "assets/attachments/Pasted image 20230406065255.png",
