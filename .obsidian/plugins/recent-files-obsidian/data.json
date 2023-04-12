@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-W15",
+      "path": "journals/weeklies/2023/2023-W15.md"
+    },
+    {
       "basename": "Habit Tracker",
       "path": "journals/dailies/Habit Tracker.md"
+    },
+    {
+      "basename": "2023-04-10",
+      "path": "journals/dailies/2023/April/2023-04-10.md"
     },
     {
       "basename": "weekly",
@@ -11,10 +19,6 @@
     {
       "basename": "daily",
       "path": "assets/templates/daily.md"
-    },
-    {
-      "basename": "2023-04-10",
-      "path": "journals/dailies/2023/April/2023-04-10.md"
     },
     {
       "basename": "2023-04-11",

@@ -51,44 +51,6 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  Journal_throughout_the_day:
-    input: checkbox
-    accessorKey: Journal_throughout_the_day
-    key: Journal_throughout_the_day
-    id: Journal_throughout_the_day
-    label: Journal
-    position: 4
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  Cardio_(Walk_or_run_outside):
-    input: checkbox
-    accessorKey: Cardio_(Walk_or_run_outside)
-    key: Cardio_(Walk_or_run_outside)
-    id: Cardio_(Walk_or_run_outside)
-    label: Cardio
-    position: 5
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
   Spent:
     input: number
     accessorKey: Spent
@@ -154,6 +116,70 @@ columns:
     id: Workout_Routine
     label: Full Body Workout
     position: 3
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Entertainment:
+    input: select
+    accessorKey: Entertainment
+    key: Entertainment
+    id: Youtube/Show/Anime/TV
+    label: Main Entertainment
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    options:
+      - { label: "TV", value: "TV", color: "hsl(47, 95%, 90%)"}
+      - { label: "Youtube", value: "Youtube", color: "hsl(124, 95%, 90%)"}
+      - { label: "Anime", value: "Anime", color: "hsl(75, 95%, 90%)"}
+      - { label: "Music", value: "Music", color: "hsl(309, 95%, 90%)"}
+      - { label: "GoingOut", value: "GoingOut", color: "hsl(217, 95%, 90%)"}
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      option_source: manual
+  Cardio:
+    input: checkbox
+    accessorKey: Cardio
+    key: Cardio
+    id: Cardio_(Walk_or_run_outside)
+    label: Cardio
+    position: 5
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Journal:
+    input: checkbox
+    accessorKey: Journal
+    key: Journal
+    id: Journal_throughout_the_day
+    label: Journal
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1
