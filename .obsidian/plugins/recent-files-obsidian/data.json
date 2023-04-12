@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2023-W14",
-      "path": "journals/weeklies/2023/2023-W14.md"
-    },
-    {
-      "basename": "2023-04-12",
-      "path": "journals/dailies/2023/April/2023-04-12.md"
+      "basename": "Habit Tracker",
+      "path": "journals/dailies/Habit Tracker.md"
     },
     {
       "basename": "weekly",
       "path": "assets/templates/weekly.md"
     },
     {
-      "basename": "Habit Tracker",
-      "path": "journals/dailies/Habit Tracker.md"
+      "basename": "daily",
+      "path": "assets/templates/daily.md"
     },
     {
-      "basename": "2023-04-05",
-      "path": "journals/dailies/2023/April/2023-04-05.md"
+      "basename": "2023-04-10",
+      "path": "journals/dailies/2023/April/2023-04-10.md"
+    },
+    {
+      "basename": "2023-04-11",
+      "path": "journals/dailies/2023/April/2023-04-11.md"
+    },
+    {
+      "basename": "2023-04-12",
+      "path": "journals/dailies/2023/April/2023-04-12.md"
     },
     {
       "basename": "2023-04-04",
@@ -67,10 +71,6 @@
     {
       "basename": "My Annotations",
       "path": "pages/My Annotations.md"
-    },
-    {
-      "basename": "daily",
-      "path": "assets/templates/daily.md"
     },
     {
       "basename": "note",

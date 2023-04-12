@@ -9,7 +9,7 @@
     "enabled": true
   },
   "weekly": {
-    "format": "YYYY/gggg-[W]WW",
+    "format": "YYYY/gggg-[W]ww",
     "template": "assets/templates/weekly.md",
     "folder": "journals/weeklies",
     "enabled": true

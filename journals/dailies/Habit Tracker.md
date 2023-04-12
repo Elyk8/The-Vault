@@ -51,72 +51,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  Screen_Time_(mins):
-    input: number
-    accessorKey: Screen_Time_(mins)
-    key: Screen_Time_(mins)
-    id: Screen_Time_(mins)
-    label: Screen Time (mins)
-    position: 6
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  $_Spent:
-    input: number
-    accessorKey: $_Spent
-    key: $_Spent
-    id: $_Spent
-    label: $ Spent
-    position: 7
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  Workout_Routine:
-    input: select
-    accessorKey: Workout_Routine
-    key: Workout_Routine
-    id: Workout_Routine
-    label: Full Body Workout
-    position: 3
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    options:
-      - { label: "Lift", value: "🏋️", color: "hsl(341, 95%, 90%)"}
-      - { label: "Rest", value: "💦", color: "hsl(290, 95%, 90%)"}
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
   Journal_throughout_the_day:
     input: checkbox
     accessorKey: Journal_throughout_the_day
     key: Journal_throughout_the_day
     id: Journal_throughout_the_day
-    label: Journal throughout the day
+    label: Journal
     position: 4
     skipPersist: false
     isHidden: false
@@ -135,8 +75,85 @@ columns:
     accessorKey: Cardio_(Walk_or_run_outside)
     key: Cardio_(Walk_or_run_outside)
     id: Cardio_(Walk_or_run_outside)
-    label: Cardio (Walk or run outside)
+    label: Cardio
     position: 5
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Spent:
+    input: number
+    accessorKey: Spent
+    key: Spent
+    id: $_Spent
+    label: $ Spent
+    position: 7
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Screen:
+    input: number
+    accessorKey: Screen
+    key: Screen
+    id: Screen_Time_(mins)
+    label: Screen Time (mins)
+    position: 6
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 114
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Water:
+    input: number
+    accessorKey: Water
+    key: Water
+    id: Glass_of_Water
+    label: Glass of Water
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  Workout:
+    input: checkbox
+    accessorKey: Workout
+    key: Workout
+    id: Workout_Routine
+    label: Full Body Workout
+    position: 3
     skipPersist: false
     isHidden: false
     sortIndex: -1

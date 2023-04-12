@@ -19,5 +19,6 @@
   "showIndentGuide": true,
   "tabSize": 4,
   "useTab": true,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "readableLineLength": false
 }
