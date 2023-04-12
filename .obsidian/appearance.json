@@ -4,14 +4,13 @@
   "textFontFamily": "Inter",
   "monospaceFontFamily": "Cascadia Code",
   "showViewHeader": false,
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "baseFontSize": 19,
   "enabledCssSnippets": [
     "tasks",
     "header-hashes",
     "header-coloring",
-    "header-org-bullets",
-    "coloured-headings"
+    "header-org-bullets"
   ],
   "theme": "obsidian"
 }
