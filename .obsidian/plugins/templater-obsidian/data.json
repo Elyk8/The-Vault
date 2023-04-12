@@ -15,10 +15,6 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "journals",
-      "template": "assets/templates/daily.md"
-    },
-    {
       "folder": "pages",
       "template": "assets/templates/note.md"
     }

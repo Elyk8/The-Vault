@@ -1,4 +1,4 @@
-h	daily-notes	Daily notes: Open today's daily note
+h	periodic-notes:open-daily-note	Periodic Notes: Open daily note
 a	quickadd:choice:69db3baa-5c1c-4f75-a92d-e1f1d26b4456	QuickAdd: Add PDF
 o	darlal-switcher-plus:switcher-plus:open	Quick Switcher++: Open in Standard Mode
 O	obsidian-omnivore:resync	Omnivore: Resync all articles

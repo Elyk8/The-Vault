@@ -1,16 +1,18 @@
 {
-  "showGettingStartedBanner": true,
+  "showGettingStartedBanner": false,
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "folder": "journals",
+    "format": "YYYY/MMMM/YYYY-MM-DD",
+    "folder": "journals/dailies",
     "template": "assets/templates/daily.md",
     "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY/gggg-[W]WW",
+    "template": "assets/templates/weekly.md",
+    "folder": "journals/weeklies",
+    "enabled": true
   },
   "monthly": {
     "format": "",

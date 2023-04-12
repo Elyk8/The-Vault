@@ -17,6 +17,11 @@
     },
     {
       "type": "file",
+      "title": "Habit Tracker",
+      "path": "journals/dailies/Habit Tracker.md"
+    },
+    {
+      "type": "file",
       "title": "My Brain",
       "path": "canvas/My Brain.canvas"
     },
